@@ -181,7 +181,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #f80a0a;
 		font-weight: 600;
 		line-height: 1.65;
 		margin: 0 0 1em 0;
@@ -1784,7 +1784,7 @@ input, select, textarea {
 
 			header.major > :first-child:after {
 				content: '';
-				background-color: #ffffff;
+				background-color: #f30f0f;
 				display: block;
 				height: 2px;
 				margin: 0.325em 0 0.5em 0;
@@ -3410,12 +3410,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #242943;
+			background-color: #ccd1e7;
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.2;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -3474,7 +3474,7 @@ input, select, textarea {
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.7em;
+					font-size: 1em;
 					font-weight: 600;
 					letter-spacing: 0.25em;
 					text-transform: uppercase;
@@ -3550,7 +3550,7 @@ input, select, textarea {
 			}
 
 				#banner h1 {
-					font-size: 2em;
+					font-size: 3em;
 				}
 
 				#banner > .inner .content {
