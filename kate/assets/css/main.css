@@ -116,7 +116,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #ffffff;
+		color: #6741f3;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
@@ -1912,7 +1912,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(212, 212, 255, 0.035);
+		background: rgba(219, 238, 208, 0.322);
 		border: none;
 		border-radius: 0;
 		color: inherit;
@@ -2134,7 +2134,7 @@ input, select, textarea {
 		}
 
 		.icon.alt:before {
-			background-color: #ffffff;
+			background-color: #f787c8;
 			border-radius: 100%;
 			color: #242943;
 			display: inline-block;
@@ -2517,11 +2517,11 @@ input, select, textarea {
 		background-color: transparent;
 		border: 0;
 		border-radius: 0;
-		box-shadow: inset 0 0 0 2px #ffffff;
+		box-shadow: inset 0 0 0 2px #afe26d;
 		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.8em;
+		font-size: 1.2em;
 		font-weight: 600;
 		height: 3.5em;
 		letter-spacing: 0.25em;
@@ -3458,7 +3458,7 @@ input, select, textarea {
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
-				display: flex;
+				display: block;
 				-moz-align-items: center;
 				-webkit-align-items: center;
 				-ms-align-items: center;
@@ -3952,3 +3952,7 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+	#two{
+		background-color:rgba(150, 183, 245, 0.384);
+	}
