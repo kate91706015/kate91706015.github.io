@@ -208,7 +208,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.1em;
+		font-size: 1.2em;
 	}
 
 	h3 {
@@ -2353,9 +2353,9 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
+			/* display: flex; */
 			margin: 0 0 3em 0;
-			width: 100%;
+			width: 40%;
 		}
 
 			.image.main img {
@@ -2671,7 +2671,7 @@ input, select, textarea {
 				padding: 1em;
 				border-radius: 4px;
 				border-bottom: 0;
-				color: #ffffff;
+				color: #4c4864;
 				text-align: center;
 				text-decoration: none;
 				z-index: 3;

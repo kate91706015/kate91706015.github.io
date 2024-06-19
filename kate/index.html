@@ -135,6 +135,9 @@
 					<section id="contact">
 						<div class="inner">
 							<section>
+								<!-- 這一行需要加上onsubmit="return mailto()" -->
+  							  	<form method="post" action="#"  onsubmit="return mailto()">
+
 								<form method="post" action="#">
 									<div class="fields">
 										<div class="field half">
@@ -154,6 +157,18 @@
 										<li><input type="submit" value="傳送" class="primary" /></li>
 										<li><input type="reset" value="清除" /></li>
 									</ul>
+
+									<!-- 呼叫email程式的語法:start -->
+        							<script>
+          						  	function mailto() {
+                					name = document.getElementsByName('name')[0].value; // 把使用者輸入的名稱拿出來用
+                					email = document.getElementsByName('email')[0].value; // 把使用者輸入的email拿出來用
+                					message = document.getElementsByName('message')[0].value.replaceAll('\n', '%0D%0A'); // 把使用者輸入的內容拿出來用
+                					window.location.href = "mailto:kate91706015@gmail.com?subject=有問題&body=您好, 我是" + name + ":%0D%0A" + message;
+                					return false;
+           							 }
+       								 </script>
+       								 <!-- 呼叫email程式的語法:end -->
 								</form>
 							</section>
 							<section class="split">
@@ -161,8 +176,7 @@
 									<div class="contact-method">
 										<span class="icon solid alt fa-bookmark"></span>
 										<h3>統編</h3>
-										<span>123456789</span>
-										<!-- <a href="#">information@untitled.tld</a> -->
+										<a>147258369</a>
 									</div>
 								</section>
 								<section>
@@ -193,7 +207,7 @@
 								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
 								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
 								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<!-- <li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li> -->
 							</ul>
 							<ul class="copyright">
 								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
