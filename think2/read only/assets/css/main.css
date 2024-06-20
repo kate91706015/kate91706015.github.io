@@ -3030,13 +3030,13 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #222;
-				color: #fff;
+				/* background: #222; */
+				color: #383333;
 				min-width: 320px;
 			}
 
 				 #titleBar .title {
-					color: #fff;
+					color: #5e5353;
 					display: block;
 					font-weight: 700;
 					height: 44px;
