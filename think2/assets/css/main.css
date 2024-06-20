@@ -2354,7 +2354,7 @@ input, select, textarea {
 
 		.image.main {
 			/* display: flex; */
-			margin: 0 0 3em 0;
+			margin: 0 0 0.5em 0;
 			width: 80%;
 		}
 
@@ -3326,4 +3326,9 @@ input, select, textarea {
 				padding: 0 1.25em;
 			}
 
+		}
+
+
+		.image.main {
+			margin: 0 0 0.5em 0;
 		}
