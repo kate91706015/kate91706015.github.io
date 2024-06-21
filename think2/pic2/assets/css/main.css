@@ -1409,10 +1409,10 @@ input, select, textarea {
 			}
 
 		#wrapper:before {
-			-moz-animation: spinner 1s infinite linear !important;
-			-webkit-animation: spinner 1s infinite linear !important;
-			-ms-animation: spinner 1s infinite linear !important;
-			animation: spinner 1s infinite linear !important;
+			-moz-animation: spinner 0.1s infinite linear !important;
+			-webkit-animation: spinner 0.1s infinite linear !important;
+			-ms-animation: spinner 0.1s infinite linear !important;
+			animation: spinner 0.1s infinite linear !important;
 			pointer-events: none;
 			-moz-transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s;
 			-webkit-transition: top 0.75s ease-in-out, opacity 0.35s ease-out, visibility 0.35s;
@@ -1438,10 +1438,10 @@ input, select, textarea {
 		}
 
 		body.is-preload #wrapper:before {
-			-moz-transition: opacity 1s ease-out !important;
-			-webkit-transition: opacity 1s ease-out !important;
-			-ms-transition: opacity 1s ease-out !important;
-			transition: opacity 1s ease-out !important;
+			-moz-transition: opacity 0.5s ease-out !important;
+			-webkit-transition: opacity 0.5s ease-out !important;
+			-ms-transition: opacity 0.5s ease-out !important;
+			transition: opacity 0.5s ease-out !important;
 			-moz-transition-delay: 0.5s !important;
 			-webkit-transition-delay: 0.5s !important;
 			-ms-transition-delay: 0.5s !important;
@@ -1462,10 +1462,10 @@ input, select, textarea {
 		-webkit-transform: translateY(0);
 		-ms-transform: translateY(0);
 		transform: translateY(0);
-		-moz-transition: -moz-transform 1s ease;
+		/* -moz-transition: -moz-transform 1s ease;
 		-webkit-transition: -webkit-transform 1s ease;
 		-ms-transition: -ms-transform 1s ease;
-		transition: transform 1s ease;
+		transition: transform 1s ease; */
 		-moz-user-select: none;
 		-ms-user-select: none;
 		-webkit-user-select: none;
@@ -1524,10 +1524,10 @@ input, select, textarea {
 				}
 
 					#header nav > ul > li a {
-						-moz-transition: background-color 0.5s ease;
-						-webkit-transition: background-color 0.5s ease;
-						-ms-transition: background-color 0.5s ease;
-						transition: background-color 0.5s ease;
+						-moz-transition: background-color 0.25s ease;
+						-webkit-transition: background-color 0.25s ease;
+						-ms-transition: background-color 0.25s ease;
+						transition: background-color 0.25s ease;
 						border: 0;
 						color: #ffffff;
 						display: inline-block;
@@ -1588,10 +1588,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		-moz-transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, -moz-filter 0.5s ease;
-		-webkit-transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, -webkit-filter 0.5s ease;
-		-ms-transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, -ms-filter 0.5s ease;
-		transition: -moz-filter 0.5s ease, -webkit-filter 0.5s ease, -ms-filter 0.5s ease, filter 0.5s ease;
+		-moz-transition: -moz-filter 0.2s ease, -webkit-filter 0.2s ease, -ms-filter 0.2s ease, -moz-filter 0.2s ease;
+		-webkit-transition: -moz-filter 0.2s ease, -webkit-filter 0.2s ease, -ms-filter 0.2s ease, -webkit-filter 0.2s ease;
+		-ms-transition: -moz-filter 0.2s ease, -webkit-filter 0.2s ease, -ms-filter 0.2s ease, -ms-filter 0.2s ease;
+		transition: -moz-filter 0.2s ease, -webkit-filter 0.2s ease, -ms-filter 0.2s ease, filter 0.2s ease;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -1604,10 +1604,10 @@ input, select, textarea {
 	}
 
 		#main .thumb {
-			-moz-transition: opacity 1.25s ease-in-out;
-			-webkit-transition: opacity 1.25s ease-in-out;
-			-ms-transition: opacity 1.25s ease-in-out;
-			transition: opacity 1.25s ease-in-out;
+			-moz-transition: opacity 0.25s ease-in-out;
+			-webkit-transition: opacity 0.25s ease-in-out;
+			-ms-transition: opacity 0.25s ease-in-out;
+			transition: opacity 0.25s ease-in-out;
 			pointer-events: auto;
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 			opacity: 1;
