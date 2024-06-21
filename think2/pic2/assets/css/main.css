@@ -361,7 +361,7 @@ input, select, textarea {
 		text-align: right;
 	}
 
-/* Button */
+
 
 	input[type="submit"],
 	input[type="reset"],
@@ -492,7 +492,7 @@ input, select, textarea {
 			opacity: 0.35;
 		}
 
-/* Form */
+
 
 	form {
 		margin: 0 0 2em 0;
@@ -538,9 +538,9 @@ input, select, textarea {
 
 				form > .fields > .field.quarter {
 					width: calc(25% - 0.375em);
-				}
+				} */
 
-		@media screen and (max-width: 736px) {
+		 @media screen and (max-width: 736px) {
 
 			form > .fields {
 				width: calc(100% + 3em);
@@ -749,7 +749,7 @@ input, select, textarea {
 		opacity: 1.0;
 	}
 
-/* Icon */
+
 
 	.icon {
 		text-decoration: none;
@@ -786,7 +786,7 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-/* List */
+
 
 	ol {
 		list-style: decimal;
@@ -837,7 +837,6 @@ input, select, textarea {
 			margin-left: 2em;
 		}
 
-/* Actions */
 
 	ul.actions {
 		display: -moz-flex;
@@ -1343,7 +1342,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		/* @media screen and (max-width: 736px) {
 
 			.poptrox-popup:before {
 				display: none;
@@ -1359,7 +1358,7 @@ input, select, textarea {
 				display: none !important;
 			}
 
-		}
+		} */
 
 /* Wrapper */
 
