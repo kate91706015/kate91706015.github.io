@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>作品集｜杺想室內設計</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: #fff;
+      color: #111;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #e60012;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 2rem;
+      text-decoration: none;
+    }
+
+    .hero {
+      position: relative;
+      width: 100%;
+      max-height: 1280px;
+      overflow: hidden;
+    }
+
+    .hero img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .hero-text {
+      position: absolute;
+      bottom: 20px;
+      left: 30px;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      background: rgba(0, 0, 0, 0.4);
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+    }
+
+    .container {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .project {
+      margin-bottom: 4rem;
+    }
+
+    .project h2 {
+      font-size: 1.8rem;
+      border-left: 5px solid #e60012;
+      padding-left: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .project-description {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      color: #444;
+    }
+
+    .project-images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(580px, 1fr));
+      gap: 1rem;
+    }
+
+    .project-images img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ddd;
+      display: block;
+    }
+
+    footer {
+      background-color: #000;
+      color: #aaa;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 4rem;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav {
+        margin-top: 0.5rem;
+      }
+      nav a {
+        margin-left: 0;
+        margin-right: 1rem;
+      }
+      .project h2 {
+        font-size: 1.5rem;
+      }
+      .project-description {
+        font-size: 0.95rem;
+      }
+      .hero-text {
+        font-size: 1.2rem;
+        left: 15px;
+        bottom: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>杺想室內設計</h1>
+    <nav>
+      <a href="index.html">首頁</a>
+      <a href="portfolio.html">作品集</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <img src="images/hero1.jpg" alt="杺想設計主視覺">
+    <div class="hero-text">專注極簡．質感空間</div>
+  </div>
+
+  
+
+  <footer>
+    &copy; 2025 杺想室內設計 All rights reserved.
+  </footer>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>作品集｜杺想室內設計</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: #fff;
+      color: #111;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #e60012;
+    }
+
+    nav a {
+      color: #fff;
+      margin-left: 2rem;
+      text-decoration: none;
+    }
+
+    .container {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .project {
+      margin-bottom: 4rem;
+    }
+
+    .project h2 {
+      font-size: 1.8rem;
+      border-left: 5px solid #e60012;
+      padding-left: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .project-description {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      color: #444;
+    }
+
+    .project-images {
+      display:  grid;
+      grid-template-columns: repeat (auto-fit, minmax(1280px, 1fr)); 
+      gap: 1rem;
+    }
+
+    .project-images img {
+      width: 80%;
+      height: auto;
+      border: 1px solid #ddd;
+    }
+
+    footer {
+      background-color: #000;
+      color: #aaa;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 4rem;
+    }
+  
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav {
+        margin-top: 0.5rem;
+      }
+      nav a {
+        margin-left: 0;
+        margin-right: 1rem;
+      }
+      .project h2 {
+        font-size: 1.5rem;
+      }
+      .project-description {
+        font-size: 0.95rem;
+      }
+    }
+    </style>
+
+</head>
+<body>
+  <header>
+    <h1>杺想室內設計</h1>
+    <nav>
+      <a href="index.html">首頁</a>
+      <a href="portfolio.html">作品集</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <!-- 台北水漾 -->
+    <div class="project">
+      <h2>漾漾台北</h2>
+      <div class="project-description">
+        三房二廳二衛的住宅空間，極簡風格，使用低彩色調與自然光呼應，營造出靜謐與質感並存的居家環境。
+      </div>
+      <div class="project-images">
+        <img src="images/warter/water1.jpg" alt="水漾-客廳" />
+        <img src="images/warter/water2.jpg" alt="水漾-臥室" />
+        <img src="images/warter/water3.jpg" alt="水漾-餐廳" />
+        <img src="images/warter/water4.jpg" alt="水漾-浴室" />
+      </div>
+    </div>
+
+    <!-- 丰盛 -->
+    <div class="project">
+      <h2>丰盛</h2>
+      <div class="project-description">
+        溫潤木質與黑白對比的交錯運用，為小家庭打造寬敞開放的視覺效果與舒適生活感，讓日常更加丰盛。
+      </div>
+      <div class="project-images">
+        <img src="images/feng/feng1.jpg" alt="丰盛-客廳" />
+        <img src="images/feng/feng2.jpg" alt="丰盛-廚房" />
+        <img src="images/feng/feng3.jpg" alt="丰盛-書房" />
+        <img src="images/feng/feng4.jpg" alt="丰盛-浴室" />
+        <img src="images/feng/feng.jpg" alt="丰盛-浴室" />
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 杺想室內設計 All rights reserved.
+  </footer>
+</body>
+</html>
